@@ -1,0 +1,69 @@
+$fuente: Helvetica;
+$header-fondo: #ccc;
+$fondo-logo: lightgreen; 
+
+body {
+    box-sizing: border-box;
+    font-family: $fuente;
+}
+
+.header{
+    background-color: $header-fondo;
+    padding: 1rem;
+    display: flex;
+    margin: 11px 3px 7px 3px;
+
+    span {
+        background-color: $fondo-logo;
+        border: none;
+        border-radius: 99px;
+        padding: 1rem;
+        -webkit-border-radius: 99px;
+        -moz-border-radius: 99px;
+        -ms-border-radius: 99px;
+        -o-border-radius: 99px;
+}
+
+    h2 a {
+        text-decoration: none;
+        color: black;
+        margin: 10px;
+        padding: 0.5rem;
+    }
+
+    .underline {
+        margin-bottom: 0.5rem;
+        text-decoration: underline;
+    }
+}
+
+.box {
+    margin: 0.7rem;
+    padding: 1rem;
+    width: 400px;
+    height: 300px;
+    justify-content: center;
+    align-items: center;
+    border: 2px solid black;
+
+    h2 {
+        border-bottom: 1px solid black;
+        padding: 0.5rem;
+    }
+
+    form .select-form {
+        border: 1px solid black;
+    }
+
+    .label-1, .label-2 {
+        margin-right: 3rem;
+    }
+
+    textarea {
+        margin-top: 1rem;
+        border: 2px solid black;
+        width: 18rem;
+        height: 5rem;
+    }
+
+}
